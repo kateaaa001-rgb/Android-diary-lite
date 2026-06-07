@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bookmark ribbon -->
+    <path
+        android:fillColor="#8AA3FF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M56,73v12l4,-3l4,3v-12z" />
+
+    <!-- Notebook cover outline -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,30h30a5,5 0 0 1 5,5v36a5,5 0 0 1 -5,5h-30a2,2 0 0 1 -2,-2v-46a2,2 0 0 1 2,-2z" />
+
+    <!-- Ruled lines on cover page -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:alpha="0.6"
+        android:pathData="M48,46h18 M48,54h18 M48,62h10" />
+
+    <!-- Spiral bindings wrapping the spine -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M41,36a4,3 0 0 0 0,6 M41,45a4,3 0 0 0 0,6 M41,54a4,3 0 0 0 0,6 M41,63a4,3 0 0 0 0,6 M41,72a4,3 0 0 0 0,6" />
+
+    <!-- Sparkle star representing rich diary memory captures -->
+    <path
+        android:fillColor="#8AA3FF"
+        android:pathData="M75,16q0,5 5,5q-5,0 -5,5q0,-5 -5,-5q5,0 5,-5z" />
+
+    <!-- Floating helper dot star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.8"
+        android:pathData="M69,32a1.2,1.2 0 1,1 -2.4,0a1.2,1.2 0 1,1 2.4,0" />
+</vector>
